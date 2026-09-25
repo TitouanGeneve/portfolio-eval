@@ -1,5 +1,12 @@
-body{
-    background:linear-gradient(to right, #15213f, #101b35);    
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #15213f, #101b35);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -23,7 +30,7 @@ body{
     color: #38BDF8;
 }
 
-.navbar{
+.navbar {
     display: flex;
     flex: 1 1 auto;
     min-width: 0;
@@ -34,9 +41,9 @@ body{
     margin-right: 15px;
 }
 
-.navbutton{
+.navbutton {
     text-decoration: none;
-    color:white;
+    color: white;
     margin: 0;
     font-size: 20px;
     transition: color 0.3s ease, opacity 0.3s ease;
@@ -48,22 +55,22 @@ footer a:hover,
     color: #38BDF8;
 }
 
-.name{
+.name {
     font-size: 50px;
     text-align: center;
 }
 
-.name span{
-    color:#38BDF8;
+.name span {
+    color: #38BDF8;
 }
 
-.présentation{
-    color:white;
+.présentation {
+    color: white;
     font-size: 30px;
     text-align: center;
 }
 
-.text-presentation{
+.text-presentation {
     padding: 15px 0;
     color: #dfeeff;
     font-size: 18px;
@@ -118,18 +125,19 @@ footer a:hover,
     object-fit: contain;
     object-position: bottom center;
 }
+
 .présentation span {
     color: #b1aeae;
 }
 
-.infos{
+.infos {
     text-align: center;
-    color:#38BDF8;
+    color: #38BDF8;
     font-size: 20px;
 }
 
 /* Paragraphes */
-.paragraphe{
+.paragraphe {
     background-color: #101b35;
     border: 1px solid rgba(255, 255, 255, 0.08);
     margin-top: 15px;
@@ -142,14 +150,32 @@ footer a:hover,
     border-color: rgba(56, 189, 248, 0.45);
 }
 
-h2{
+h2 {
     text-align: center;
     color: #38BDF8;
     font-size: 40px;
 }
 
+table {
+    border-collapse: collapse;
+}
+
+td,th {
+    border: 1px solid #38BDF8;
+    padding: 10px 20px;
+}
+
+caption {
+    texte-align: right;
+    text-align: center;
+    color: #38BDF8;
+    font-size: 20px;
+}
+
 /* Compétences */
-.skills, .work, .projets{
+.skills,
+.work,
+.projets {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -157,7 +183,7 @@ h2{
     gap: 10px;
 }
 
-.cases{
+.cases {
     flex: 1 1 calc(50% - 10px);
     min-width: 0;
     padding: 20px;
@@ -174,7 +200,7 @@ h2{
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.16);
 }
 
-.cases span{
+.cases span {
     text-align: center;
     color: #38BDF8;
     font-size: 20px;
@@ -233,7 +259,8 @@ h2{
     gap: 1rem;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input,
+.contact-form textarea {
     padding: 0.8rem;
     background: #15213f;
     border: 1px solid #4b4b4b;
@@ -268,26 +295,26 @@ h2{
     box-shadow: 0 8px 18px rgba(56, 189, 248, 0.22);
 }
 
-.contact{
+.contact {
     display: flex;
     width: 100%;
     margin-top: 10px;
     gap: 10px;
 }
 
-.divcontact{
+.divcontact {
     width: 50%;
     padding: 20px;
     box-sizing: border-box;
     border-radius: 8px;
 }
 
-.divcontact a{
+.divcontact a {
     text-decoration: none;
-    color:#38BDF8;
+    color: #38BDF8;
 }
 
-.contactlink{
+.contactlink {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -337,18 +364,18 @@ h2{
 footer {
     background-color: #101b35;
     border: 1px solid rgba(255, 255, 255, 0.08);
-    margin-top: 15px;
+    margin-top: auto;
     text-align: center;
     padding: 10px 5px;
 }
 
-footer a{
+footer a {
     text-decoration: none;
-    color:white;
+    color: white;
     transition: color 0.3s ease;
 }
 
-.go-up img{
+.go-up img {
     float: left;
     width: 25px;
     height: 25px;
@@ -363,7 +390,9 @@ footer a{
         display: none;
     }
 
-    .skills, .work, .projets {
+    .skills,
+    .work,
+    .projets {
         flex-direction: column;
     }
 
