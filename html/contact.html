@@ -23,91 +23,93 @@
       </nav>
       <div class="logo">TG<span>.dev</span></div>
     </header>
-    <div class="paragraphe" id="contact">
-      <h2>Me contacter :</h2>
-      <div class="contact">
-        <div class="divcontact">
-          <div class="contactlink">
-            <a
-              href="https://github.com/TitouanGeneve"
-              class="contact-link-item"
-              target="_blank"
-              rel="noopener noreferrer"
+    <main>
+      <div class="paragraphe" id="contact">
+        <h2>Me contacter :</h2>
+        <div class="contact">
+          <div class="divcontact">
+            <div class="contactlink">
+              <a
+                href="https://github.com/TitouanGeneve"
+                class="contact-link-item"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../img/logo_github.webp"
+                  alt=""
+                  class="contact-icon"
+                />
+                <span>GitHub</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/titouan-gen%C3%A8ve-0997a6433/"
+                class="contact-link-item"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="../img/logo_linkedin.webp"
+                  alt=""
+                  class="contact-icon"
+                />
+                <span>LinkedIn</span>
+              </a>
+              <a
+                href="mailto:titouan.geneve.dev@gmail.com"
+                class="contact-link-item"
+                ><span>Email</span></a
+              >
+              <a href="tel:0636058166" class="contact-link-item"
+                ><span>Téléphone</span></a
+              >
+              <a
+                href="https://www.google.fr/maps/place/Av.+de+la+Gare,+07100+Annonay/@45.2464205,4.6730653,17z/data=!3m1!4b1!4m6!3m5!1s0x47f513a3e0a2398b:0x3dd9efcc7979065a!8m2!3d45.2464205!4d4.6756402!16s%2Fg%2F1thsqqzf?entry=ttu&g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                class="contact-link-item"
+                ><span>Adresse</span></a
+              >
+            </div>
+          </div>
+          <div class="divcontact">
+            <form
+              class="contact-form"
+              id="contactForm"
+              action="https://formspree.io/f/mvkolael"
+              method="POST"
             >
-              <img
-                src="../img/logo_github.webp"
-                alt=""
-                class="contact-icon"
+              <input
+                type="text"
+                name="name"
+                placeholder="Votre Nom"
+                autocomplete="name"
+                required
               />
-              <span>GitHub</span>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/titouan-gen%C3%A8ve-0997a6433/"
-              class="contact-link-item"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="../img/logo_linkedin.webp"
-                alt=""
-                class="contact-icon"
+              <input
+                type="email"
+                name="email"
+                placeholder="Votre Email"
+                autocomplete="email"
+                required
               />
-              <span>LinkedIn</span>
-            </a>
-            <a
-              href="mailto:titouan.geneve.dev@gmail.com"
-              class="contact-link-item"
-              ><span>Email</span></a
-            >
-            <a href="tel:0636058166" class="contact-link-item"
-              ><span>Téléphone</span></a
-            >
-            <a
-              href="https://www.google.fr/maps/place/Av.+de+la+Gare,+07100+Annonay/@45.2464205,4.6730653,17z/data=!3m1!4b1!4m6!3m5!1s0x47f513a3e0a2398b:0x3dd9efcc7979065a!8m2!3d45.2464205!4d4.6756402!16s%2Fg%2F1thsqqzf?entry=ttu&g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D"
-              target="_blank"
-              class="contact-link-item"
-              ><span>Adresse</span></a
-            >
+              <input type="text" name="subject" placeholder="Sujet" required />
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Votre Message"
+                required
+              ></textarea>
+              <input
+                type="hidden"
+                name="_subject"
+                value="Nouveau message depuis le portfolio"
+              />
+              <button type="submit" class="btn-sent">Envoyer le message</button>
+            </form>
           </div>
         </div>
-        <div class="divcontact">
-          <form
-            class="contact-form"
-            id="contactForm"
-            action="https://formspree.io/f/mvkolael"
-            method="POST"
-          >
-            <input
-              type="text"
-              name="name"
-              placeholder="Votre Nom"
-              autocomplete="name"
-              required
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Votre Email"
-              autocomplete="email"
-              required
-            />
-            <input type="text" name="subject" placeholder="Sujet" required />
-            <textarea
-              name="message"
-              rows="5"
-              placeholder="Votre Message"
-              required
-            ></textarea>
-            <input
-              type="hidden"
-              name="_subject"
-              value="Nouveau message depuis le portfolio"
-            />
-            <button type="submit" class="btn-sent">Envoyer le message</button>
-          </form>
-        </div>
       </div>
-    </div>
+    </main>
     <footer>
       <a href="#navbar" class="go-up">
         <img
