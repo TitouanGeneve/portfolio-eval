@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de Titouan Genève, étudiant en BTS SIO SLAM passionné par le développement web, la programmation et la cybersécurité."
+    />
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+    <title>Projets | Titouan Genève</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="site-header" id="navbar">
+      <a class="logo" href="../index.html" aria-label="Accueil, Titouan Genève">
+        TG<span>.dev</span>
+      </a>
+      <!-- Navigation vers les autres pages du portfolio -->
+      <nav class="navbar" aria-label="Navigation principale">
+        <a href="../index.html" class="navbutton">Accueil</a>
+        <a href="formation.html" class="navbutton">Formation</a>
+        <a href="competences.html" class="navbutton">Compétences</a>
+        <a href="centres_interet.html" class="navbutton">Centres d'intérêt</a>
+        <a href="experiences.html" class="navbutton">Expériences</a>
+        <a href="contact.html" class="navbutton">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="paragraphe" id="projets">
+        <p class="eyebrow">Projets personnels et scolaires</p>
+        <h1>Mes projets</h1>
+        <p class="section-intro">
+          Quelques réalisations menées pendant mes années de lycée.
+        </p>
+        <!-- Chaque carte présente un projet et les détails de sa réalisation -->
+        <div class="projets">
+          <article class="cases">
+            <h2>Création d'un CTF (Capture The Flag)</h2>
+            <p class="project-meta">2025 · Lycée Saint-Denis</p>
+            <p>
+              Conception et organisation d'une compétition informatique au
+              lycée, avec la gestion des participants et des scores.
+            </p>
+            <!-- Catégories des défis proposés lors du CTF -->
+            <h3 class="challenge-heading">Catégories de défis</h3>
+            <ul class="challenge-list">
+              <li>OSINT</li>
+              <li>Sécurité web</li>
+              <li>Programmation</li>
+              <li>Reverse engineering</li>
+              <li>GEOINT</li>
+              <li>Cryptographie</li>
+            </ul>
+            <h3 class="challenge-heading">Étapes du projet</h3>
+            <ol class="challenge-steps">
+              <li>Conception des défis</li>
+              <li>Organisation de la compétition</li>
+              <li>Gestion des participants</li>
+              <li>Suivi des scores</li>
+            </ol>
+          </article>
+          <article class="cases">
+            <h2>Création d'un jeu : Clowork Empire</h2>
+            <p class="project-meta">2025 · Lycée Saint-Denis</p>
+            <p>
+              Création d'un jeu de type clicker dans le cadre de la spécialité
+              NSI en première.
+            </p>
+            <!-- preload="metadata" évite de charger la vidéo entière d'emblée -->
+            <figure class="project-media">
+              <video
+                class="project-video"
+                controls
+                preload="metadata"
+                aria-label="Vidéo de démonstration de Clowork Empire"
+              >
+                <source
+                  src="../assets/video/clockwork_empire.mp4"
+                  type="video/mp4"
+                />
+                Votre navigateur ne prend pas en charge la lecture des vidéos
+                HTML5.
+              </video>
+              <figcaption class="project-video-caption">
+                Vidéo de démonstration de Clowork Empire.
+              </figcaption>
+            </figure>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!-- Retour en haut de page, copyright et licence du projet -->
+    <footer>
+      <a href="#navbar" class="go-up">
+        <img
+          src="../assets/img/arrow-up.webp"
+          alt="Retour en haut de page"
+          class="arrow-up"
+        />
+      </a>
+      &copy; 2026 Titouan Genève - BTS SIO SLAM. Licence
+      <a href="../LICENSE.txt">MIT</a>
+    </footer>
+  </body>
+</html>

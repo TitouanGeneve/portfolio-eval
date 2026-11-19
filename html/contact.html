@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio de Titouan Genève, étudiant en BTS SIO SLAM passionné par le développement web, la programmation et la cybersécurité."
+    />
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
+    <title>Contact | Titouan Genève</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="site-header" id="navbar">
+      <a class="logo" href="../index.html" aria-label="Accueil, Titouan Genève">
+        TG<span>.dev</span>
+      </a>
+      <!-- Navigation vers les autres pages du portfolio -->
+      <nav class="navbar" aria-label="Navigation principale">
+        <a href="../index.html" class="navbutton">Accueil</a>
+        <a href="formation.html" class="navbutton">Formation</a>
+        <a href="competences.html" class="navbutton">Compétences</a>
+        <a href="projets.html" class="navbutton">Projets</a>
+        <a href="centres_interet.html" class="navbutton">Centres d'intérêt</a>
+        <a href="experiences.html" class="navbutton">Expériences</a>
+      </nav>
+    </header>
+    <main>
+      <section class="paragraphe" id="contact">
+        <p class="eyebrow">Une question ou une opportunité ?</p>
+        <h1>Me contacter</h1>
+        <p class="section-intro">
+          Vous pouvez me joindre par e-mail, téléphone ou via le formulaire.
+        </p>
+        <div class="contact">
+          <div class="divcontact">
+            <!-- Profils sociaux et coordonnées -->
+            <div class="contactlink">
+              <a
+                href="https://github.com/TitouanGeneve"
+                class="contact-link-item"
+                target="_blank"
+              >
+                <img
+                  src="../assets/img/logo_github.webp"
+                  alt=""
+                  class="contact-icon"
+                />
+                <span>GitHub</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/titouan-gen%C3%A8ve-0997a6433/"
+                class="contact-link-item"
+                target="_blank"
+              >
+                <img
+                  src="../assets/img/logo_linkedin.webp"
+                  alt=""
+                  class="contact-icon"
+                />
+                <span>LinkedIn</span>
+              </a>
+              <a
+                href="mailto:titouan.geneve.dev@gmail.com"
+                class="contact-link-item"
+              >
+                <span>E-mail</span>
+              </a>
+              <a href="tel:0636058166" class="contact-link-item">
+                <span>Téléphone</span>
+              </a>
+              <a
+                href="https://www.google.fr/maps/place/Av.+de+la+Gare,+07100+Annonay/@45.2464205,4.6730653,17z/data=!3m1!4b1!4m6!3m5!1s0x47f513a3e0a2398b:0x3dd9efcc7979065a!8m2!3d45.2464205!4d4.6756402!16s%2Fg%2F1thsqqzf?entry=ttu&g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                class="contact-link-item"
+              >
+                <span>Adresse</span>
+              </a>
+            </div>
+          </div>
+          <div class="divcontact">
+            <!-- Formspree reçoit et transmet les données du formulaire -->
+            <form
+              class="contact-form"
+              id="contactForm"
+              action="https://formspree.io/f/mvkolael"
+              method="POST"
+            >
+              <label for="contact-name">Votre nom</label>
+              <input
+                id="contact-name"
+                type="text"
+                name="name"
+                placeholder="Votre nom"
+                autocomplete="name"
+                required
+              />
+              <label for="contact-email">Votre adresse e-mail</label>
+              <input
+                id="contact-email"
+                type="email"
+                name="email"
+                placeholder="Votre e-mail"
+                autocomplete="email"
+                required
+              />
+              <label for="contact-subject">Sujet</label>
+              <input
+                id="contact-subject"
+                type="text"
+                name="subject"
+                placeholder="Sujet"
+                required
+              />
+              <label for="contact-message">Votre message</label>
+              <textarea
+                id="contact-message"
+                name="message"
+                rows="5"
+                placeholder="Votre message"
+                required
+              ></textarea>
+              <input
+                type="hidden"
+                name="_subject"
+                value="Nouveau message depuis le portfolio"
+              />
+              <button type="submit" class="btn-sent">
+                Envoyer le message
+              </button>
+            </form>
+            <p class="privacy-notice">
+              Votre nom, votre adresse e-mail, le sujet et le message sont
+              transmis à Formspree pour acheminer votre demande et me permettre
+              d'y répondre. N'incluez pas d'informations sensibles.
+            </p>
+            <p class="powered-by">
+              Powered by
+              <a href="https://formspree.io/" target="_blank">Formspree</a>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Retour en haut de page, copyright et licence du projet -->
+    <footer>
+      <a href="#navbar" class="go-up">
+        <img
+          src="../assets/img/arrow-up.webp"
+          alt="Retour en haut de page"
+          class="arrow-up"
+        />
+      </a>
+      &copy; 2026 Titouan Genève - BTS SIO SLAM. Licence
+      <a href="../LICENSE.txt">MIT</a>
+    </footer>
+  </body>
+</html>
