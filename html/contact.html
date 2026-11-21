@@ -14,16 +14,18 @@
   <body>
     <header class="site-header" id="navbar">
       <a class="logo" href="../index.html" aria-label="Accueil, Titouan Genève">
-        TG<span>.dev</span>
+        TG<span>.tech</span>
       </a>
-      <!-- Navigation vers les autres pages du portfolio -->
       <nav class="navbar" aria-label="Navigation principale">
-        <a href="../index.html" class="navbutton">Accueil</a>
-        <a href="formation.html" class="navbutton">Formation</a>
-        <a href="competences.html" class="navbutton">Compétences</a>
-        <a href="projets.html" class="navbutton">Projets</a>
-        <a href="centres_interet.html" class="navbutton">Centres d'intérêt</a>
-        <a href="experiences.html" class="navbutton">Expériences</a>
+        <ul>
+          <li><a href="../index.html" class="navbutton">Accueil</a></li>
+          <li><a href="formation.html" class="navbutton">Formation</a></li>
+          <li><a href="competences.html" class="navbutton">Compétences</a></li>
+          <li><a href="technologies.html" class="navbutton">Technologies</a></li>
+          <li><a href="projets.html" class="navbutton">Projets</a></li>
+          <li><a href="centres_interet.html" class="navbutton">Centres d'intérêt</a></li>
+          <li><a href="experiences.html" class="navbutton">Expériences</a></li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -35,115 +37,144 @@
         </p>
         <div class="contact">
           <div class="divcontact">
-            <!-- Profils sociaux et coordonnées -->
-            <div class="contactlink">
-              <a
-                href="https://github.com/TitouanGeneve"
-                class="contact-link-item"
-                target="_blank"
-              >
-                <img
-                  src="../assets/img/logo_github.webp"
-                  alt=""
-                  class="contact-icon"
-                />
-                <span>GitHub</span>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/titouan-gen%C3%A8ve-0997a6433/"
-                class="contact-link-item"
-                target="_blank"
-              >
-                <img
-                  src="../assets/img/logo_linkedin.webp"
-                  alt=""
-                  class="contact-icon"
-                />
-                <span>LinkedIn</span>
-              </a>
-              <a
-                href="mailto:titouan.geneve.dev@gmail.com"
-                class="contact-link-item"
-              >
-                <span>E-mail</span>
-              </a>
-              <a href="tel:0636058166" class="contact-link-item">
-                <span>Téléphone</span>
-              </a>
-              <a
-                href="https://www.google.fr/maps/place/Av.+de+la+Gare,+07100+Annonay/@45.2464205,4.6730653,17z/data=!3m1!4b1!4m6!3m5!1s0x47f513a3e0a2398b:0x3dd9efcc7979065a!8m2!3d45.2464205!4d4.6756402!16s%2Fg%2F1thsqqzf?entry=ttu&g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D"
-                target="_blank"
-                class="contact-link-item"
-              >
-                <span>Adresse</span>
-              </a>
+            <div class="contactlink-heading">
+              <p class="eyebrow">Mes coordonnées</p>
+              <h2 id="contact-details-title">Restons en contact</h2>
+              <p>Retrouvez-moi sur mes réseaux ou choisissez le moyen qui vous convient.</p>
             </div>
+            <ul class="contactlink" aria-labelledby="contact-details-title">
+              <li>
+                <a
+                  href="https://github.com/TitouanGeneve"
+                  class="contact-link-item"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="../assets/img/logo/github.webp" alt="" class="contact-icon" />
+                  <span class="contact-link-copy">
+                    <span class="contact-link-title">GitHub</span>
+                    <span class="contact-link-value">@TitouanGeneve</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/titouan-gen%C3%A8ve-0997a6433/"
+                  class="contact-link-item"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src="../assets/img/logo/linkedin.webp" alt="" class="contact-icon" />
+                  <span class="contact-link-copy">
+                    <span class="contact-link-title">LinkedIn</span>
+                    <span class="contact-link-value">Profil professionnel</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:titouan.geneve.dev@gmail.com" class="contact-link-item">
+                  <img src="../assets/img/logo/mail.webp" alt="" class="contact-icon" />
+                  <span class="contact-link-copy">
+                    <span class="contact-link-title">E-mail</span>
+                    <span class="contact-link-value">titouan.geneve.<wbr />dev@gmail.com</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="tel:0636058166" class="contact-link-item">
+                  <img src="../assets/img/logo/phone.webp" alt="" class="contact-icon" />
+                  <span class="contact-link-copy">
+                    <span class="contact-link-title">Téléphone</span>
+                    <span class="contact-link-value">06 36 05 81 66</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.google.fr/maps/place/Av.+de+la+Gare,+07100+Annonay/@45.2464205,4.6730653,17z/data=!3m1!4b1!4m6!3m5!1s0x47f513a3e0a2398b:0x3dd9efcc7979065a!8m2!3d45.2464205!4d4.6756402!16s%2Fg%2F1thsqqzf?entry=ttu&g_ep=EgoyMDI2MDkxMy4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-link-item"
+                >
+                  <img src="../assets/img/logo/adresse.webp" alt="" class="contact-icon" />
+                  <span class="contact-link-copy">
+                    <span class="contact-link-title">Adresse</span>
+                    <span class="contact-link-value">Annonay, Ardèche</span>
+                  </span>
+                </a>
+              </li>
+            </ul>
           </div>
           <div class="divcontact">
-            <!-- Formspree reçoit et transmet les données du formulaire -->
             <form
               class="contact-form"
               id="contactForm"
-              action="https://formspree.io/f/mvkolael"
-              method="POST"
+              action="mon_action.php"
+              method="post"
             >
-              <label for="contact-name">Votre nom</label>
-              <input
-                id="contact-name"
-                type="text"
-                name="name"
-                placeholder="Votre nom"
-                autocomplete="name"
-                required
-              />
-              <label for="contact-email">Votre adresse e-mail</label>
-              <input
-                id="contact-email"
-                type="email"
-                name="email"
-                placeholder="Votre e-mail"
-                autocomplete="email"
-                required
-              />
-              <label for="contact-subject">Sujet</label>
-              <input
-                id="contact-subject"
-                type="text"
-                name="subject"
-                placeholder="Sujet"
-                required
-              />
-              <label for="contact-message">Votre message</label>
-              <textarea
-                id="contact-message"
-                name="message"
-                rows="5"
-                placeholder="Votre message"
-                required
-              ></textarea>
-              <input
-                type="hidden"
-                name="_subject"
-                value="Nouveau message depuis le portfolio"
-              />
-              <button type="submit" class="btn-sent">
+              <fieldset>
+                <legend>Informations personnelles</legend>
+                <label for="contact-name">Nom <span aria-hidden="true">*</span></label>
+                <input id="contact-name" tabindex="0" autofocus type="text" name="name" placeholder="Votre nom" autocomplete="name" required />
+
+                <div class="field-group" role="group" aria-labelledby="gender-label">
+                  <p class="field-label" id="gender-label">Sexe <span aria-hidden="true">*</span></p>
+                  <div class="radio-group">
+                    <label for="gender-male"><input id="gender-male" tabindex="0" type="radio" name="sexe" value="homme" required /> Homme</label>
+                    <label for="gender-female"><input id="gender-female" tabindex="0" type="radio" name="sexe" value="femme" /> Femme</label>
+                  </div>
+                </div>
+
+                <label for="birthdate">Date de naissance <span aria-hidden="true">*</span></label>
+                <input id="birthdate" tabindex="0" type="date" name="birthdate" required />
+
+                <label for="contact-email">Adresse e-mail <span aria-hidden="true">*</span></label>
+                <input id="contact-email" tabindex="0" type="email" name="email" placeholder="ex. nom@exemple.fr" autocomplete="email" required />
+
+                <label for="password">Mot de passe <span aria-hidden="true">*</span></label>
+                <input id="password" tabindex="0" type="password" name="password" minlength="8" pattern="(?=.*[A-Za-z])(?=.*[0-9]).{8,}" placeholder="8 caractères minimum, lettres et chiffres" title="Saisissez au moins 8 caractères, avec une lettre et un chiffre." autocomplete="new-password" required />
+              </fieldset>
+
+              <fieldset>
+                <legend>Mieux vous connaître</legend>
+                <label for="html-level">Niveau HTML (0 à 5) <span aria-hidden="true">*</span></label>
+                <input id="html-level" tabindex="0" type="number" name="html_level" min="0" max="5" step="1" required />
+
+                <label for="motivation">Ma motivation <span aria-hidden="true">*</span></label>
+                <textarea id="motivation" tabindex="0" name="motivation" rows="5" cols="40" placeholder="Expliquez votre motivation" required></textarea>
+              </fieldset>
+
+              <fieldset>
+                <legend>Inscription à la formation</legend>
+                <label for="department">Département d'origine</label>
+                <select id="department" tabindex="0" name="department">
+                  <option value="ardeche" selected>Ardèche</option>
+                  <option value="loire">Loire</option>
+                  <option value="rhone">Rhône</option>
+                  <option value="drome">Drôme</option>
+                  <option value="autre">Autre</option>
+                </select>
+
+                <label for="courses">Je viens en cours</label>
+                <select id="courses" tabindex="0" name="courses[]" multiple size="3">
+                  <option value="html">HTML</option>
+                  <option value="css">CSS</option>
+                  <option value="javascript">JavaScript</option>
+                </select>
+
+                <label class="checkbox-label" for="clauses">
+                  <input id="clauses" type="checkbox" tabindex="0" name="clauses" required />
+                  J'accepte les conditions d'utilisation <span aria-hidden="true">*</span>
+                </label>
+              </fieldset>
+              <button type="submit" class="btn-sent" tabindex="0">
                 Envoyer le message
               </button>
             </form>
-            <p class="privacy-notice">
-              Votre nom, votre adresse e-mail, le sujet et le message sont
-              transmis à Formspree pour acheminer votre demande et me permettre
-              d'y répondre. N'incluez pas d'informations sensibles.
-            </p>
-            <p class="powered-by">
-              Powered by
-              <a href="https://formspree.io/" target="_blank">Formspree</a>
-            </p>
           </div>
         </div>
       </section>
     </main>
-    <!-- Retour en haut de page, copyright et licence du projet -->
     <footer>
       <a href="#navbar" class="go-up">
         <img

@@ -14,16 +14,18 @@
   <body>
     <header class="site-header" id="navbar">
       <a class="logo" href="../index.html" aria-label="Accueil, Titouan Genève">
-        TG<span>.dev</span>
+        TG<span>.tech</span>
       </a>
-      <!-- Navigation vers les autres pages du portfolio -->
       <nav class="navbar" aria-label="Navigation principale">
-        <a href="../index.html" class="navbutton">Accueil</a>
-        <a href="formation.html" class="navbutton">Formation</a>
-        <a href="competences.html" class="navbutton">Compétences</a>
-        <a href="centres_interet.html" class="navbutton">Centres d'intérêt</a>
-        <a href="experiences.html" class="navbutton">Expériences</a>
-        <a href="contact.html" class="navbutton">Contact</a>
+        <ul>
+          <li><a href="../index.html" class="navbutton">Accueil</a></li>
+          <li><a href="formation.html" class="navbutton">Formation</a></li>
+          <li><a href="competences.html" class="navbutton">Compétences</a></li>
+          <li><a href="technologies.html" class="navbutton">Technologies</a></li>
+          <li><a href="centres_interet.html" class="navbutton">Centres d'intérêt</a></li>
+          <li><a href="experiences.html" class="navbutton">Expériences</a></li>
+          <li><a href="contact.html" class="navbutton">Contact</a></li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -33,7 +35,6 @@
         <p class="section-intro">
           Quelques réalisations menées pendant mes années de lycée.
         </p>
-        <!-- Chaque carte présente un projet et les détails de sa réalisation -->
         <div class="projets">
           <article class="cases">
             <h2>Création d'un CTF (Capture The Flag)</h2>
@@ -42,7 +43,6 @@
               Conception et organisation d'une compétition informatique au
               lycée, avec la gestion des participants et des scores.
             </p>
-            <!-- Catégories des défis proposés lors du CTF -->
             <h3 class="challenge-heading">Catégories de défis</h3>
             <ul class="challenge-list">
               <li>OSINT</li>
@@ -67,12 +67,12 @@
               Création d'un jeu de type clicker dans le cadre de la spécialité
               NSI en première.
             </p>
-            <!-- preload="metadata" évite de charger la vidéo entière d'emblée -->
             <figure class="project-media">
               <video
                 class="project-video"
                 controls
                 preload="metadata"
+                poster="../assets/img/logo/clockwork_empire.webp"
                 aria-label="Vidéo de démonstration de Clowork Empire"
               >
                 <source
@@ -81,6 +81,7 @@
                 />
                 Votre navigateur ne prend pas en charge la lecture des vidéos
                 HTML5.
+                <a href="../assets/video/clockwork_empire.mp4">Télécharger la vidéo MP4</a>
               </video>
               <figcaption class="project-video-caption">
                 Vidéo de démonstration de Clowork Empire.
@@ -90,7 +91,6 @@
         </div>
       </section>
     </main>
-    <!-- Retour en haut de page, copyright et licence du projet -->
     <footer>
       <a href="#navbar" class="go-up">
         <img

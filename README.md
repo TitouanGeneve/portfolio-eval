@@ -15,7 +15,11 @@ dépendances ni étape de compilation.
   différentes tailles d'écran
 - Images WebP pour les photographies et les icônes
 - Vidéo MP4 de démonstration du jeu Clowork Empire
-- Formspree pour le traitement du formulaire de contact
+
+## Crédits
+
+Les icônes de contact (GitHub, LinkedIn, e-mail, téléphone et adresse)
+proviennent de [Icons8](https://icons8.com/).
 
 ## Structure du projet
 
@@ -28,7 +32,8 @@ portfolio-eval/
 │   ├── contact.html
 │   ├── experiences.html
 │   ├── formation.html
-│   └── projets.html
+│   ├── projets.html
+│   └── technologies.html
 ├── css/
 │   └── style.css
 ├── assets/
@@ -36,11 +41,26 @@ portfolio-eval/
 │   ├── img/
 │   │   ├── 1.webp à 8.webp
 │   │   ├── arrow-up.webp
+│   │   ├── logo/
+│   │   │   ├── adresse.webp
+│   │   │   ├── clockwork_empire.webp
+│   │   │   ├── csharo.webp
+│   │   │   ├── css.webp
+│   │   │   ├── github.webp
+│   │   │   ├── html.webp
+│   │   │   ├── javascript.webp
+│   │   │   ├── linkedin.webp
+│   │   │   ├── luanti.webp
+│   │   │   ├── mail.webp
+│   │   │   ├── phone.webp
+│   │   │   ├── python.webp
+│   │   │   └── sql.webp
 │   │   ├── logo_github.webp
 │   │   ├── logo_linkedin.webp
 │   │   └── photo-profil.webp
 │   └── video/
-│       └── clockwork_empire.mp4
+│       ├── clockwork_empire.mp4
+│       └── luanti.mp4
 ├── .gitignore
 ├── CNAME
 ├── LICENSE.txt
@@ -55,8 +75,8 @@ portfolio-eval/
 2. Ouvrir le dossier du projet dans VS Code.
 3. Ouvrir `index.html` dans un navigateur.
 
-Le formulaire de contact utilise Formspree et nécessite une connexion Internet
-pour envoyer les messages.
+Le formulaire de contact est uniquement présent côté interface. Son action
+cible `mon_action.php`, mais aucun script de traitement n'est fourni.
 
 ## Modifier le site
 

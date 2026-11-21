@@ -8,39 +8,42 @@
       content="Portfolio de Titouan Genève, étudiant en BTS SIO SLAM passionné par le développement web, la programmation et la cybersécurité."
     />
     <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
-    <title>Photographies | Titouan Genève</title>
+    <title>Centres d'intérêt | Titouan Genève</title>
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <header class="site-header" id="navbar">
       <a class="logo" href="../index.html" aria-label="Accueil, Titouan Genève">
-        TG<span>.dev</span>
+        TG<span>.tech</span>
       </a>
-      <!-- Navigation vers les autres pages du portfolio -->
       <nav class="navbar" aria-label="Navigation principale">
-        <a href="../index.html" class="navbutton">Accueil</a>
-        <a href="formation.html" class="navbutton">Formation</a>
-        <a href="competences.html" class="navbutton">Compétences</a>
-        <a href="projets.html" class="navbutton">Projets</a>
-        <a href="experiences.html" class="navbutton">Expériences</a>
-        <a href="contact.html" class="navbutton">Contact</a>
+        <ul>
+          <li><a href="../index.html" class="navbutton">Accueil</a></li>
+          <li><a href="formation.html" class="navbutton">Formation</a></li>
+          <li><a href="competences.html" class="navbutton">Compétences</a></li>
+          <li><a href="technologies.html" class="navbutton">Technologies</a></li>
+          <li><a href="projets.html" class="navbutton">Projets</a></li>
+          <li><a href="experiences.html" class="navbutton">Expériences</a></li>
+          <li><a href="contact.html" class="navbutton">Contact</a></li>
+        </ul>
       </nav>
     </header>
     <main>
       <section class="paragraphe" id="photographie">
         <p class="eyebrow">En dehors du code</p>
-        <h1>Mes photos</h1>
+        <h1>Mes centres d'intérêt</h1>
         <p class="section-intro">
           Quelques paysages, animaux et voitures photographiés au fil de mes
           sorties.
         </p>
-        <!-- Galerie de photos ; loading="lazy" diffère le chargement des images -->
         <div class="photos-grid">
           <figure class="photo">
             <img
               class="image-photo"
               src="../assets/img/1.webp"
               alt="Porsche photographiée"
+              width="800"
+              height="600"
               loading="lazy"
             />
             <figcaption class="description-photo">Porsche</figcaption>
@@ -50,6 +53,8 @@
               class="image-photo"
               src="../assets/img/2.webp"
               alt="Éclipse photographiée"
+              width="800"
+              height="600"
               loading="lazy"
             />
             <figcaption class="description-photo">Éclipse</figcaption>
@@ -59,6 +64,8 @@
               class="image-photo"
               src="../assets/img/3.webp"
               alt="Annonay pendant un orage"
+              width="800"
+              height="600"
               loading="lazy"
             />
             <figcaption class="description-photo">Annonay par temps d'orage</figcaption>
@@ -68,6 +75,8 @@
               class="image-photo"
               src="../assets/img/4.webp"
               alt="Papillon zygène posé sur une fleur de carline blanche"
+              width="800"
+              height="600"
               loading="lazy"
             />
             <figcaption class="description-photo">
@@ -79,6 +88,8 @@
               class="image-photo"
               src="../assets/img/5.webp"
               alt="Lac dans la brume"
+              width="800"
+              height="600"
               loading="lazy"
             />
             <figcaption class="description-photo">Lac brumeux</figcaption>
@@ -88,6 +99,8 @@
               class="image-photo"
               src="../assets/img/6.webp"
               alt="Laurier-rose dans le Dévoluy"
+              width="800"
+              height="600"
               loading="lazy"
             />
             <figcaption class="description-photo">Laurier-rose dans le Dévoluy</figcaption>
@@ -97,6 +110,8 @@
               class="image-photo"
               src="../assets/img/7.webp"
               alt="Ferrari photographiée à Monaco"
+              width="800"
+              height="600"
               loading="lazy"
             />
             <figcaption class="description-photo">Ferrari à Monaco</figcaption>
@@ -106,6 +121,8 @@
               class="image-photo"
               src="../assets/img/8.webp"
               alt="Papillon Tabac d'Espagne dans le Dévoluy"
+              width="800"
+              height="600"
               loading="lazy"
             />
             <figcaption class="description-photo">
@@ -113,9 +130,23 @@
             </figcaption>
           </figure>
         </div>
+        <aside class="interest-aside">
+          <h2>Mes inspirations</h2>
+          <p>
+            Je suis intéressé par la nature, les jeu vidéos, l'automobile et la photographie.
+          </p>
+        </aside>
+        <section class="interest-video" aria-labelledby="video-centres-titre">
+          <h2 id="video-centres-titre">Une courte vidéo sur mes centres d'intérêt</h2>
+          <figure class="project-media">
+            <video class="project-video" controls preload="metadata" poster="../assets/img/logo/luanti.webp" aria-label="Vidéo de Luanti">
+              <source src="../assets/video/luanti.mp4" type="video/mp4" />
+              Votre navigateur ne prend pas en charge la vidéo HTML5.
+            </video>
+          </figure>
+        </section>
       </section>
     </main>
-    <!-- Retour en haut de page, copyright et licence du projet -->
     <footer>
       <a href="#navbar" class="go-up">
         <img
